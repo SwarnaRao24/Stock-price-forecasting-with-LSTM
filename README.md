@@ -10,6 +10,20 @@ Through strategic hyperparameter tuning (increasing the hidden layer size and op
 | Baseline Model | 50 | 10 | 0.001 | \$13.12 | 50.77% |
 | **Optimized Model** | **128** | **30** | **0.0005** | **\$11.57**  | **51.54%**  |
 
+### Visual Progress: Baseline vs. Optimized Model
+
+#### 1. Baseline Model Results (RMSE: \$13.12)
+This was our initial run using 10 epochs and a hidden size of 50. Notice the slight gap during sharp price movements:
+
+![Baseline LSTM Prediction](baseline_prediction_plot.png)
+
+#### 2. Optimized Model Results (RMSE: \$11.57)
+After tuning the network's capacity to a hidden size of 128 and training for 30 epochs, the tracking became much tighter around major peaks:
+
+![Optimized LSTM Prediction](optimized_prediction_plot.png)
+
+---
+
 ### Key Takeaway
 The optimized model successfully dropped the tracking error (**RMSE**) by **\$1.55 on average** across the entire unseen test set, tracking macro market trends and cyclic corrections exceptionally well.
 
