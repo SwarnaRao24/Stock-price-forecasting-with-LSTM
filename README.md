@@ -55,3 +55,10 @@ Make sure you have these core libraries installed in your Anaconda environment:
 2. Open `LSTM-Stock-Forecasting.ipynb`.
 3. Run the cells sequentially to fetch data, train the network, and output performance metrics.
 4. Trained model weights are automatically saved locally to `lstm_stock_model.pth` for instant deployment.
+
+---
+**Developer:** Swarna Rao  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swarnamukhi-chintalapudi)
+
+**Focus:** Deep Learning | LSTM-RNN | Pytorch & yfinance | Matplotlib | Scikit-learn
